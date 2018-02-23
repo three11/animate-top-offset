@@ -1,0 +1,38 @@
+{
+  "name": "@three11/animate-top-offset",
+  "version": "0.1.0",
+  "description": "Scroll a container to a specific Y offset",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/three11/animate-top-offset.git"
+  },
+  "keywords": [
+    "Animated",
+    "Scroll",
+    "JavaScript",
+    "ES2017"
+  ],
+  "authors": [
+    {
+      "name": "Three 11 Ltd",
+      "email": "contact.three11@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Alexander Panayotov",
+      "email": "alexander.panayotov@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Atanas Atanasov",
+      "email": "scriptex.bg@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/three11/animate-top-offset/issues"
+  },
+  "homepage": "https://github.com/three11/animate-top-offset#readme"
+}
