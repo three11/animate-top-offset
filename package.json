@@ -1,6 +1,6 @@
 {
   "name": "@three11/animate-top-offset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Scroll a container to a specific Y offset",
   "main": "dist/index.js",
   "scripts": {
