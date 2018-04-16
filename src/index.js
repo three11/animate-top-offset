@@ -26,7 +26,7 @@ const requestAnimFrame = (() => {
 	);
 })();
 
-export const animateTopOffset = (
+const animateTopOffset = (
 	offset = 0,
 	container = win,
 	speed = 2000,
@@ -56,3 +56,5 @@ export const animateTopOffset = (
 
 	tick();
 };
+
+export default animateTopOffset;

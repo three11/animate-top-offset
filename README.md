@@ -14,12 +14,20 @@ or
 yarn add @three11/animate-top-offset
 ```
 
+or
+
+Just download this repository and link the files located in dist folder:
+
+```
+<script src="dist/index.min.js"></script>
+```
+
 ## Usage
 
 First, `import` the module:
 
 ```
-import { animateTopOffset } from '@three11/animate-top-offset';
+import animateTopOffset from '@three11/animate-top-offset';
 ```
 
 Then use the module:
@@ -41,10 +49,10 @@ button.addEventListener('click', event => {
 
 The function accepts four arguments:
 
-* `offset`
-* `container`
-* `speed`
-* `easing`
+*   `offset`
+*   `container`
+*   `speed`
+*   `easing`
 
 ```
 animateTopOffset(0, window, 2000, 'easeOutSine');
@@ -52,16 +60,16 @@ animateTopOffset(0, window, 2000, 'easeOutSine');
 
 Default values are:
 
-* `offset` = 0
-* `container` = `window`
-* `speed` = 2000
-* `easing` = `'easeOutSine'`
+*   `offset` = 0
+*   `container` = `window`
+*   `speed` = 2000
+*   `easing` = `'easeOutSine'`
 
 There are three built-in easing functions:
 
-* `'easeOutSine'`
-* `'easeInOutSine'`
-* `'easeInOutQuint'`
+*   `'easeOutSine'`
+*   `'easeInOutSine'`
+*   `'easeInOutQuint'`
 
 ## License
 
