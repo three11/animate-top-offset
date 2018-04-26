@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/dt/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
+
 # Animate Top Offset
 
 Vanilla JS animated scroll to a given offset.
