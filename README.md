@@ -4,6 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/commits/master)
 [![Github file size](https://img.shields.io/github/size/three11/animate-top-offset/dist/index.min.js.svg)](https://github.com/three11/animate-top-offset/)
+[![Build Status](https://travis-ci.org/three11/animate-top-offset.svg?branch=master)](https://travis-ci.org/three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/dt/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/v/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
 [![license](https://img.shields.io/github/license/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset)
@@ -57,17 +58,17 @@ button.addEventListener('click', event => {
 	const offset = doc.querySelector(href).offsetTop;
 
 	animateTopOffset(offset);
-})
+});
 ```
 
 ## Arguments
 
 The function accepts four arguments:
 
-*   `offset`
-*   `container`
-*   `speed`
-*   `easing`
+-   `offset`
+-   `container`
+-   `speed`
+-   `easing`
 
 ```javascript
 animateTopOffset(0, window, 2000, 'easeOutSine');
@@ -75,16 +76,16 @@ animateTopOffset(0, window, 2000, 'easeOutSine');
 
 Default values are:
 
-*   `offset` = 0
-*   `container` = `window`
-*   `speed` = 2000
-*   `easing` = `'easeOutSine'`
+-   `offset` = 0
+-   `container` = `window`
+-   `speed` = 2000
+-   `easing` = `'easeOutSine'`
 
 There are three built-in easing functions:
 
-*   `'easeOutSine'`
-*   `'easeInOutSine'`
-*   `'easeInOutQuint'`
+-   `'easeOutSine'`
+-   `'easeInOutSine'`
+-   `'easeInOutQuint'`
 
 ## License
 
