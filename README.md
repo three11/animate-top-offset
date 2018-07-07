@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/commits/master)
-[![Github file size](https://img.shields.io/github/size/three11/animate-top-offset/dist/index.min.js.svg)](https://github.com/three11/animate-top-offset/)
+[![Github file size](https://img.shields.io/github/size/three11/animate-top-offset/dist/animate-top-offset.min.js.svg)](https://github.com/three11/animate-top-offset/)
 [![Build Status](https://travis-ci.org/three11/animate-top-offset.svg?branch=master)](https://travis-ci.org/three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/dt/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/v/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
@@ -12,6 +12,8 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/three11/animate-top-offset/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/three11/animate-top-offset/graphs/commit-activity)
 [![Greenkeeper badge](https://badges.greenkeeper.io/three11/animate-top-offset.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://david-dm.org/three11/animate-top-offset/status.svg)](https://david-dm.org/three11/animate-top-offset)
+[![devDependencies Status](https://david-dm.org/three11/animate-top-offset/dev-status.svg)](https://david-dm.org/three11/animate-top-offset?type=dev)
 
 [![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
 
@@ -21,13 +23,13 @@ Vanilla JS animated scroll to a given offset.
 
 ## Install
 
-```console
+```sh
 npm i @three11/animate-top-offset
 ```
 
 or
 
-```console
+```sh
 yarn add @three11/animate-top-offset
 ```
 
@@ -36,7 +38,15 @@ or
 Just download this repository and link the files located in dist folder:
 
 ```html
-<script src="dist/index.min.js"></script>
+<script src="path-to-animate-top-offset/dist/animate-top-offset.min.js"></script>
+```
+
+or
+
+Include it from Unpkg CDN
+
+```html
+<script src="//unpkg.com/@three11/animate-top-offset/dist/animate-top-offset.min.js"></script>
 ```
 
 ## Usage
