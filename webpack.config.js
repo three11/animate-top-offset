@@ -2,9 +2,9 @@ const UnminifiedWebpackPlugin = require('unminified-webpack-plugin');
 
 module.exports = {
 	mode: 'production',
-	entry: './src/index.js',
+	entry: './src/animate-top-offset.js',
 	output: {
-		filename: 'index.min.js',
+		filename: 'animate-top-offset.min.js',
 		library: 'animateTopOffset',
 		libraryTarget: 'umd',
 		libraryExport: 'default'
