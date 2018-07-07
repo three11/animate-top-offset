@@ -1,6 +1,6 @@
 {
   "name": "@three11/animate-top-offset",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Scroll a container to a specific Y offset",
   "main": "dist/index.js",
   "scripts": {
@@ -10,12 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/three11/animate-top-offset.git"
   },
-  "keywords": [
-    "Animated",
-    "Scroll",
-    "JavaScript",
-    "ES2017"
-  ],
+  "keywords": ["Animated", "Scroll", "JavaScript", "ES2017"],
   "authors": [
     {
       "name": "Three 11 Ltd",
@@ -39,13 +34,13 @@
   },
   "homepage": "https://github.com/three11/animate-top-offset#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.51",
-    "@babel/core": "^7.0.0-beta.51",
-    "@babel/preset-env": "^7.0.0-beta.51",
-    "@babel/preset-stage-2": "^7.0.0-beta.51",
+    "@babel/cli": "^7.0.0-beta.52",
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/preset-stage-2": "^7.0.0-beta.52",
     "babel-loader": "^8.0.0-beta",
     "unminified-webpack-plugin": "^2.0.0",
-    "webpack": "^4.12.0",
+    "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
   }
 }
