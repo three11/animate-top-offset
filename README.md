@@ -1,5 +1,3 @@
-[![GitHub stars](https://img.shields.io/github/stars/three11/animate-top-offset.svg?style=social&label=Stars)](https://github.com/three11/animate-top-offset)
-[![GitHub forks](https://img.shields.io/github/forks/three11/animate-top-offset.svg?style=social&label=Fork)](https://github.com/three11/animate-top-offset/network#fork-destination-box)
 [![GitHub release](https://img.shields.io/github/release/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset/commits/master)
@@ -7,15 +5,10 @@
 [![Build Status](https://travis-ci.org/three11/animate-top-offset.svg?branch=master)](https://travis-ci.org/three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/dt/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/v/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
-[![license](https://img.shields.io/github/license/three11/animate-top-offset.svg)](https://github.com/three11/animate-top-offset)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/three11/animate-top-offset/README.md)](https://github.com/three11/animate-top-offset/)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/three11/animate-top-offset/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/three11/animate-top-offset/graphs/commit-activity)
 [![Greenkeeper badge](https://badges.greenkeeper.io/three11/animate-top-offset.svg)](https://greenkeeper.io/)
 [![dependencies Status](https://david-dm.org/three11/animate-top-offset/status.svg)](https://david-dm.org/three11/animate-top-offset)
 [![devDependencies Status](https://david-dm.org/three11/animate-top-offset/dev-status.svg)](https://david-dm.org/three11/animate-top-offset?type=dev)
-
-[![ForTheBadge built-with-love](https://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/three11/)
 
 # Animate Top Offset
 
