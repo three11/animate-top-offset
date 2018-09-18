@@ -4,13 +4,20 @@
   "description": "Scroll a container to a specific Y offset",
   "main": "dist/animate-top-offset.js",
   "scripts": {
-    "build": "webpack"
+    "dist": "babel src/animate-top-offset.js --out-file dist/animate-top-offset.js",
+    "minify": "babel src/animate-top-offset.js --out-file dist/animate-top-offset.min.js --presets minify,@babel/env",
+    "build": "npm run dist && npm run minify"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/three11/animate-top-offset.git"
   },
-  "keywords": ["Animated", "Scroll", "JavaScript", "ES2017"],
+  "keywords": [
+    "Animated",
+    "Scroll",
+    "JavaScript",
+    "ES2017"
+  ],
   "authors": [
     {
       "name": "Three 11 Ltd",
@@ -34,13 +41,19 @@
   },
   "homepage": "https://github.com/three11/animate-top-offset#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.52",
-    "@babel/core": "^7.0.0-beta.52",
-    "@babel/preset-env": "^7.0.0-beta.52",
-    "@babel/preset-stage-2": "^7.0.0-beta.52",
-    "babel-loader": "^8.0.0-beta",
-    "unminified-webpack-plugin": "^2.0.0",
-    "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8"
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.0",
+    "babel-minify": "^0.4.3"
   }
 }
