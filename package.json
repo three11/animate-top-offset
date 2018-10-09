@@ -1,6 +1,6 @@
 {
   "name": "@three11/animate-top-offset",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Scroll a container to a specific Y offset",
   "main": "dist/animate-top-offset.min.js",
   "scripts": {
@@ -44,6 +44,7 @@
     "@babel/preset-env": "7.1.0",
     "rollup": "0.66.5",
     "rollup-plugin-babel": "4.0.3",
+    "rollup-plugin-commonjs": "^9.1.8",
     "rollup-plugin-uglify": "6.0.0"
   }
 }

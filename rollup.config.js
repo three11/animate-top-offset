@@ -6,7 +6,7 @@ export default {
 	output: {
 		file: 'dist/animate-top-offset.min.js',
 		name: 'animateTopOffset',
-		format: 'iife'
+		format: 'umd'
 	},
 	plugins: [
 		babel({
