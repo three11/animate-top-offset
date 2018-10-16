@@ -89,6 +89,11 @@ There are three built-in easing functions:
 -   `'easeInOutSine'`
 -   `'easeInOutQuint'`
 
+## Demo
+
+A minimal demo is available [here](https://github.com/three11/scrollspy/blob/master/demo/index.html)
+Clicking on the links in the menu scrolls the page to the particular section.
+
 ## License
 
 GNU GENERAL PUBLIC LICENSE
