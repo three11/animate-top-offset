@@ -6,7 +6,6 @@
 [![npm](https://img.shields.io/npm/dt/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
 [![npm](https://img.shields.io/npm/v/@three11/animate-top-offset.svg)](https://www.npmjs.com/package/@three11/animate-top-offset)
 [![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/three11/animate-top-offset/README.md)](https://github.com/three11/animate-top-offset/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/three11/animate-top-offset.svg)](https://greenkeeper.io/)
 
 # Animate Top Offset
 
