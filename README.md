@@ -49,6 +49,8 @@ import animateTopOffset from '@three11/animate-top-offset';
 
 Then use the module:
 
+#### With one element
+
 ```javascript
 const button = document.getElementById('button');
 
@@ -59,6 +61,41 @@ button.addEventListener('click', event => {
 	const offset = doc.querySelector(href).offsetTop;
 
 	animateTopOffset(offset);
+});
+```
+
+#### With many elements
+
+```javascript
+const buttons = document.querySelectorAll('.js-scroll-to');
+
+// Instead of Array.from you can spread the buttons: [...buttons]
+Array.from(buttons).forEach(button => {
+	button.addEventListener('click', event => {
+		event.preventDefault();
+
+		const href = event.target.getAttribute('href');
+		const offset = doc.querySelector(href).offsetTop;
+
+		animateTopOffset(offset);
+	});
+});
+```
+
+**The examples above assume that you have a modern ES6 setup installed and configured (Webpack, Babel, etc). If not you can always fallback to ES5:**
+
+```javascript
+const buttons = document.querySelectorAll('.js-scroll-to');
+
+[].forEach.call(buttons, function(button) {
+	button.addEventListener('click', function(event) {
+		event.preventDefault();
+
+		var href = event.target.getAttribute('href');
+		var offset = doc.querySelector(href).offsetTop;
+
+		animateTopOffset(offset);
+	});
 });
 ```
 
@@ -81,6 +118,8 @@ Default values are:
 -   `container` = `window`
 -   `speed` = 2000
 -   `easing` = `'easeOutSine'`
+
+**Calling the function with the default values (`animateTopOffset()`) will scroll the window back to top.**
 
 There are three built-in easing functions:
 
