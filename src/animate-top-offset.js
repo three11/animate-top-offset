@@ -20,25 +20,17 @@ const requestAnimFrame = (() => {
 		win.requestAnimationFrame ||
 		win.webkitRequestAnimationFrame ||
 		win.mozRequestAnimationFrame ||
-		function(callback) {
+		function (callback) {
 			win.setTimeout(callback, 1000 / 60);
 		}
 	);
 })();
 
-const animateTopOffset = (
-	offset = 0,
-	container = win,
-	speed = 2000,
-	easing = 'easeOutSine'
-) => {
+const animateTopOffset = (offset = 0, container = win, speed = 2000, easing = 'easeOutSine') => {
 	let currentTime = 0;
 
 	const scrollY = container.scrollY || document.documentElement.scrollTop;
-	const time = Math.max(
-		0.1,
-		Math.min(Math.abs(scrollY - offset) / speed, 0.8)
-	);
+	const time = Math.max(0.1, Math.min(Math.abs(scrollY - offset) / speed, 0.8));
 
 	const tick = () => {
 		currentTime += 1 / 60;
