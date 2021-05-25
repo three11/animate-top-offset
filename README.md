@@ -87,8 +87,8 @@ Array.from(buttons).forEach(button => {
 ```javascript
 const buttons = document.querySelectorAll('.js-scroll-to');
 
-[].forEach.call(buttons, function(button) {
-	button.addEventListener('click', function(event) {
+[].forEach.call(buttons, function (button) {
+	button.addEventListener('click', function (event) {
 		event.preventDefault();
 
 		var href = event.target.getAttribute('href');
