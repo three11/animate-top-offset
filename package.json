@@ -39,7 +39,7 @@
 	},
 	"homepage": "https://github.com/three11/animate-top-offset#readme",
 	"devDependencies": {
-		"@babel/cli": "7.18.10",
+		"@babel/cli": "7.19.3",
 		"@babel/core": "7.19.3",
 		"@babel/preset-env": "7.19.3",
 		"rollup": "2.79.1",
