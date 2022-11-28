@@ -60,7 +60,7 @@ Array.from(buttons).forEach(button => {
 		const href = event.target.getAttribute('href');
 		const offset = doc.querySelector(href).offsetTop;
 
-		animateTopOffset(offset);
+		animateTopOffset({ offset });
 	});
 });
 ```
@@ -84,11 +84,7 @@ const buttons = document.querySelectorAll('.js-scroll-to');
 
 ## Arguments
 
-The function accepts four arguments:
-
-```ts
-animateTopOffset(0, window, 2000, 'easeOutSine');
-```
+The function accepts the following options:
 
 | Name        | Type                                                 | Required | Description                    | Default value |
 | ----------- | ---------------------------------------------------- | -------- | ------------------------------ | ------------- |
@@ -97,6 +93,10 @@ animateTopOffset(0, window, 2000, 'easeOutSine');
 | `speed`     | number                                               | false    | Speed of the scroll animation  | 200           |
 | `easing`    | 'easeOutSine' \| 'easeInOutSine' \| 'easeInOutQuint' | false    | Easing of the scroll animation | 'easeOutSine' |
 | `easings`   | Record<string, (pos: number) => number>              | false    | List of easing equations       | See below     |
+
+```ts
+animateTopOffset({ offset: 0, container: window, speed: 2000, easing: 'easeOutSine', easings: easingEquations });
+```
 
 **Calling the function with the default values (`animateTopOffset()`) will scroll the window back to top.**
 
