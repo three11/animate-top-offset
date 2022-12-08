@@ -125,7 +125,7 @@ const easingEquations: Record<string, (pos: number) => number> = {
 
 ## Demo
 
-A minimal demo is available [here](https://github.com/three11/scrollspy/blob/master/demo/index.html)
+A minimal demo is available [here](https://three11-scrollspy.netlify.app/)
 Clicking on the links in the menu scrolls the page to the particular section.
 
 ## License
