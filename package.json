@@ -43,8 +43,8 @@
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "25.0.8",
 		"@rollup/plugin-typescript": "11.1.6",
-		"@typescript-eslint/eslint-plugin": "6.21.0",
-		"@typescript-eslint/parser": "6.21.0",
+		"@typescript-eslint/eslint-plugin": "8.54.0",
+		"@typescript-eslint/parser": "8.54.0",
 		"eslint": "8.57.1",
 		"eslint-config-prettier": "9.1.2",
 		"rollup": "4.56.0",
